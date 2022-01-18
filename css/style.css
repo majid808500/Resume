@@ -1,0 +1,291 @@
+/*427 lines*/
+/*287 lines*/
+/* start of head */
+
+.container{width: 1170px; margin: auto; overflow: hidden;}
+.clear_fix{clear:both}
+/* start of head */
+.header .slider {
+    background-image: url("../images/slider.png");
+    background-size:cover;    /*-----CSS3-----*/
+}
+
+.header .intro {
+    text-align:center;
+    color:white;
+    height: 700px;
+    padding-top:200px;
+}
+
+.header .intro h2{
+    margin-top: 140px;
+    padding: 15px;
+    font-size: 50px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    color:white;
+}
+
+.header .intro button{
+    margin: 30px;
+    padding:10px;
+    border:3px solid white;
+    background: none;
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+.header .intro button:hover{background-color: rgba(255, 255, 255, 0.6);}
+.header .navbar{
+    background-color:#252F31;
+    color:white;
+    text-transform:uppercase;
+}
+
+.header .navbar h2{overflow: hidden;color:white;}
+
+.header .navbar h2 span{ color: #39DC83;}
+
+.header .navbar ul{
+    list-style: none;
+    overflow: hidden;
+    margin-left:300px;
+}
+
+.header .navbar  ul li{ padding: 10px;}
+
+.header .navbar  ul li a{color:white;text-decoration: none;}
+.header .navbar  ul .active a ,
+.header .navbar  ul li a:hover{color:#39DC83;}
+/* end of head */
+
+/*start of features */
+
+.features{overflow:hidden;margin: 20px 0 20px 0;}
+.features .feat {height:auto;width:32%;padding:30px 10px 30px 0;}
+.features .feat p{ padding: 0 10px 0 0 ;}
+    /*end of features */
+    
+    /*start of about_me */
+
+.about_me{background-color: #f5f5f5;}
+.about_me .container .image {float:left;height: 550px;width:30%;
+    background-image: url("../images/about.jpg");
+    background-size:cover    
+   
+}
+.about_me .container .image p{ height: 100%; font-size: 0.1pt; color: white;}
+
+.about_me .container .info {float: right; padding: 4% 0 0 5%; width:65%;}
+.about_me .container  p{color: #777777;}
+.about_me .container .hobby{overflow: hidden;width:65%;padding: 5% 0 0 5%;}
+.about_me .container .hobby .content{ overflow: hidden;width:45%; padding: 0 5% 3% 0;}
+
+ .about_me .container .hobby .content .text {width:75%;}
+ .about_me .container .hobby .content .icon{width:10%;margin-right: 15%;}
+ .about_me .container .hobby .content .icon i{margin-top: 20px;color:#39DC83}
+ .about_me .container .hobby .content .icon i:hover{color:rgb(157, 248, 198)}
+    /*end of about_me */
+
+    /*start of my_skills */
+
+.my_skills{ padding: 50px 0; background-color: white;}   
+
+.my_skills .skills{ width:50%;}
+
+.my_skills .skills button{
+    background: none;
+    border:2px solid #5BD799;
+    padding:15px 25px;
+    color:#5BD799;
+    margin-top: 40px;
+    margin-left: 25px;
+    font-weight:bold;
+    cursor: pointer;
+}
+.my_skills .skills button:hover{background-color:#2DCE71;; color:white;}
+
+.my_skills .progress { margin-left: 5%; width:45%;height: 100%;}
+
+.my_skills .progress .course div { height: 25px; background-color:#f2f2f2;}
+
+.my_skills .progress .course div span{
+    height: 100%;
+    background-color: #2DCE71;
+    display: block;
+    text-align: right;
+    color:white;
+    line-height:25px;
+    }
+
+    /*end of my_skills */
+
+    /*start of resume*/
+
+    .resume {
+    padding: 50px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    text-align: center;
+    }
+    .resume p{color:rgb(100, 100, 100);}
+
+    .resume button{
+    background: none;
+    border:2px solid #5BD799;
+    padding:15px 25px;
+    color:#5BD799;
+    margin-top: 40px;
+    font-weight:bold;
+    cursor: pointer;
+    }
+    .resume button:hover{background-color:#2DCE71;; color:white;}
+    /*end of resume*/
+
+    /*start of educaton/exp*/
+
+    .education{padding: 50px; background-color: white; }
+    .education hr{background-color: #555;    }
+    .education .edu {width:50%; margin-right: 5%;}
+    .education .edud{width: 45%;}
+    .education .edud span {color:white;
+        background-color:#5BD799 ;
+        padding: 5px 10px;
+        margin-bottom: 15px;
+        display:inline-block;
+
+    }
+    .education .edud hr{background-color: #70787B;}
+    .education .exp {width:50%; margin-right: 5%;}
+    .education .expd{width:45%}
+    .education .expd span {color:white;
+        background-color:rgb(70, 207, 138) ;
+        padding: 5px 10px;
+        margin-bottom: 15px;
+        display:inline-block;
+    }
+
+        /*end of educaton/exp*/
+
+        /*start of testemonials*/
+
+    .testemon{
+        padding: 50px;
+        overflow: hidden;
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+
+    .testemon p{ color:rgb(100, 100, 100); font-style:italic; }
+    .testemon ul{ 
+        list-style: none;
+        text-align:center;
+        padding-inline-start: 0;
+    }
+    .testemon ul li{
+        border:2px solid rgb(70, 207, 138);
+        border-radius: 50%;
+        width:10px;
+        height:10px;
+        display:inline-block;
+        
+
+    }
+    .testemon ul li:hover{background-color:rgb(70, 207, 138);cursor: pointer;}
+    .testemon ul li.active {background-color:rgb(70, 207, 138);}
+    /*end of testemonials*/
+
+       /*start of portofolio*/
+    .portfolio{
+        padding: 30px;
+        text-align: center;
+        overflow: hidden;
+
+    }
+    .portfolio p {margin-bottom:30px;}
+
+    .portfolio .container .our_works > div{
+        float: left;
+        width:33.3333%;
+        margin-bottom: 15px;
+    }
+
+    .portfolio .container .our_works > div img{
+        height:320px;
+        width:350px;
+        border:1.5px solid rgb(97, 105, 107);
+    }
+        /*end of portofolio*/
+
+        /*start of contact*/
+
+    .contact_me{
+        overflow: hidden;
+        background-color: #252F31;
+        color:white;}
+        
+    .contact_me p {color: #70787B;  }
+    .contact_me  .contact{
+        width:40%;
+        padding-right: 10% ;
+        padding-top: 40px;
+    } 
+    .contact_me  .contact h2{ color:white;}
+    .contact_me p strong{color:white;}
+   
+    .contact_me .form{width:50%;padding: 110px 0 80px 0; }
+    .contact_me .form input[type="text"]{
+        width:100%;
+        height:25px;
+        background-color:#4B5557;
+        border: none;
+        margin:10px 0 10px 0;
+        color:white;
+    }
+
+    .contact_me .form [type="submit"]{
+        background-color: #191E22;
+        padding:10px 20px;
+        color:white;
+        border:none;
+        margin:30px 0 30px 0;
+        cursor: pointer;
+    }
+    .contact_me .form [type="submit"]:hover{background-color:#4B5557;}
+    .contact_me .form textarea{
+        width:100%;
+        height:120px;
+        background-color:#4B5557;
+        border: none;
+        margin:10px 0 10px 0;
+        color:white;
+    }
+            /*end of contact*/
+
+            /*start of footer*/
+    .footer{
+        background-color: #191E22;
+        height: auto;
+        text-align: center;
+
+    }
+    .footer p{color: #70787B;
+    padding:30px 0 30px 0;
+    margin: 0 0;}
+
+    .footer ul{
+        list-style:none;
+        padding:0 0 50px 0;
+  
+    }
+    .footer ul li{
+        display:inline-block;
+    }
+    .footer ul li i{color:#70787B;}
+    .footer ul li i:hover{color:#fff;}
+            /*end of footer*/
+
+    .fl-lft{float:left}
+    p{color: rgb(124, 124, 124);line-height: 1.7;}
+    h2,h3{color:rgb(100, 100, 100);}
